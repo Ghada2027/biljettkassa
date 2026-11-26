@@ -5,6 +5,6 @@ public class Barn extends Biljett{
     }
     @Override
     public void visaInformation() {
-        System.out.println("Barnbiljett");
+        System.out.println("Barnbiljett Ordinarie pris: " + getGrundPris() + " kr");
     }
 }

@@ -20,7 +20,8 @@ public abstract class Biljett {
         if (rabatt >= 0 && rabatt <= 50) {
             this.rabatt = rabatt;
         } else {
-            System.out.println("Ogiltig rabatt! Ange mellan 0 och 50.");
+            System.out.println("Kan inte sätta rabatten till " + rabatt
+                    + "%. Rabatten är fortfarande " + this.rabatt + "%.");
         }
     }
 

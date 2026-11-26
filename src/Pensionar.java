@@ -6,6 +6,6 @@ public class Pensionar extends Biljett {
 
     @Override
     public void visaInformation() {
-        System.out.println("Pensionarbiljett");
+        System.out.println("Pensionarbiljett Ordinarie pris: " + getGrundPris() + " kr");
     }
 }

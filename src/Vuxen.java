@@ -5,6 +5,6 @@ public class Vuxen extends Biljett {
     }
     @Override
     public void visaInformation() {
-        System.out.println("Vuxenbiljett");
+        System.out.println("Vuxenbiljett Ordinarie pris: " + getGrundPris() + " kr");
     }
 }
